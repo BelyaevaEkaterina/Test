@@ -5,6 +5,10 @@
     <key></key>
     <value>Логирование</value>
   </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Логирование</value>
+  </synonym>
   <includeHelpInContents>true</includeHelpInContents>
   <includeInCommandInterface>true</includeInCommandInterface>
   <content>InformationRegister.Коннектор_РегистрацияЗапросов</content>
