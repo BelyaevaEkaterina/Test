@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="46ddb8af-645b-4cd3-8125-2d25a0518e40">
+  <producedTypes>
+    <managerType typeId="350a7694-798d-47f6-930e-2a33fb5ba409" valueTypeId="96f83de6-5bbd-49be-9d8a-db83290a1c01"/>
+    <valueManagerType typeId="666cb8a2-3b83-4157-bff9-19d1f248f909" valueTypeId="46f96da5-a826-4f86-ae4b-90c404e8223e"/>
+    <valueKeyType typeId="ec5d8068-07b0-45c2-a60f-225ed02d4d5c" valueTypeId="268af4d6-e54a-4ce3-af7a-b67fe57bd878"/>
+  </producedTypes>
+  <name>Коннектор_КаналОтправка</name>
+  <synonym>
+    <key>ru</key>
+    <value>Канал для отправки данных</value>
+  </synonym>
+  <type>
+    <types>String</types>
+    <stringQualifiers>
+      <length>200</length>
+    </stringQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

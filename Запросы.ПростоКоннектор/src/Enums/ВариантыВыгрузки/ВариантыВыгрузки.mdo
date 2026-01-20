@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d205f934-4db5-4682-a4d2-17bbd1e4bcbc">
+  <producedTypes>
+    <refType typeId="9ab8d7e9-2a38-462e-89b5-af6aa82b0c0b" valueTypeId="b09e18c7-976e-46f8-9a03-05992ed522fc"/>
+    <listType typeId="e7b90e3d-64c1-4200-957c-ee5a0dc2ff93" valueTypeId="ee5af6b5-22f1-4768-80e3-2d7df4c8aa12"/>
+    <managerType typeId="b8d842fb-decb-4958-bcdc-59a45e982522" valueTypeId="b305cf52-5301-45f4-9cf7-dd1e39381d0a"/>
+  </producedTypes>
+  <name>ВариантыВыгрузки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Варианты выгрузки</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="19e2191a-dfc9-4a2d-b6c9-ab6ccab71594">
+    <name>ИсполняемыйКод</name>
+    <synonym>
+      <key>ru</key>
+      <value>Исполняемый код (результат вычисления выражения на встроенном языке)</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="79ac6964-2333-41a7-8b42-ff4bf0466bbd">
+    <name>Конструктор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Конструктор (ручное проектирование полей и правил их заполнения)</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="0189aefa-a88a-408a-8497-3f0843a84b31">
+    <name>СКД</name>
+    <synonym>
+      <key>ru</key>
+      <value>СКД (проектирование простого пакета с помощью конструктора СКД)</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="6b734825-6d78-4966-95dd-23af8a87b975">
+    <name>КД2</name>
+    <synonym>
+      <key>ru</key>
+      <value>КД 2.1 (загрузите правила конвертации формата 2.1 для выгрузки объекта)</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="73cb7ae3-9840-456f-b887-4ca695bb6082">
+    <name>EnterpriseData</name>
+    <synonym>
+      <key>ru</key>
+      <value>Enterprise data (без написания правил выгрузки / загрузки)</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

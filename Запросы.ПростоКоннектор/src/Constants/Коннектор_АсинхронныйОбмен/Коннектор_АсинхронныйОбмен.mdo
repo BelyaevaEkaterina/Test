@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="86564fa7-7c8d-42ca-8a24-abc13c9a854b">
+  <producedTypes>
+    <managerType typeId="41709703-dc39-47db-8c86-b4b756bd3b45" valueTypeId="07995a44-695d-4195-aa07-c137c2c2f7bb"/>
+    <valueManagerType typeId="3b3a76e4-7384-434a-813c-4e94616b13c7" valueTypeId="d83e1048-4e0a-47f4-a7af-0a77a8b965bf"/>
+    <valueKeyType typeId="8007df6d-3ec5-415c-85b8-808c76916a10" valueTypeId="346b727a-47ed-409c-b89c-26888194dcd5"/>
+  </producedTypes>
+  <name>Коннектор_АсинхронныйОбмен</name>
+  <synonym>
+    <key>ru</key>
+    <value>Включить асинхронный обмен</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

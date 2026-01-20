@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5dea91e6-4f3e-43fb-98b9-0c44d14863f5">
+  <name>Коннектор_Логотип</name>
+  <synonym>
+    <key>ru</key>
+    <value>Коннектор логотип</value>
+  </synonym>
+</mdclass:CommonPicture>

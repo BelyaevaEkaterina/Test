@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9f3d589f-9a7d-499b-9f04-1a94eb4c4908">
+  <producedTypes>
+    <refType typeId="91aa226e-afb0-45a6-9e2e-83f1adeda5f7" valueTypeId="e0739bd6-07b2-49df-9c1b-8570d4c28890"/>
+    <listType typeId="00e40789-2f83-47be-a93d-4044fbbfe5ee" valueTypeId="c9cc5752-ac37-4a65-b347-27b376a10a52"/>
+    <managerType typeId="7731bece-53b5-4d95-a317-ba8b4eb215f9" valueTypeId="7a59b740-fdb3-42a0-ae2a-9dd3d35ef46e"/>
+  </producedTypes>
+  <name>Коннектор_ВариантыПравилЗаполненияСвойствКонструктора</name>
+  <synonym>
+    <key>ru</key>
+    <value>Варианты правил заполнения свойств конструктора</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="da23c0f8-65b6-44f8-83b2-118651f690a2">
+    <name>РеквизитОбъекта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Реквизит объекта</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="03fefe48-ce1c-4407-a5f9-7f9da737081f">
+    <name>ВыражениеНаВстроенномЯзыке</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выражение на встроенном языке</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="cfef5626-29ed-4dad-8f5a-0603debec3d5">
+    <name>НеЗаполнять</name>
+    <synonym>
+      <key>ru</key>
+      <value>Не заполнять</value>
+    </synonym>
+    <comment>Используем, если есть подчиненные элементы</comment>
+  </enumValues>
+</mdclass:Enum>

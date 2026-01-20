@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:IntegrationService xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="afa2afef-2559-4f36-a3b1-626c0a773586">
+  <producedTypes>
+    <managerType typeId="f2b59ef1-99a7-46f9-b6fe-079ee35b1134" valueTypeId="a131be71-1b25-4e74-aef6-b9c67eaabbe3"/>
+  </producedTypes>
+  <name>Коннектор_1СШина</name>
+  <synonym>
+    <key>ru</key>
+    <value>Коннектор 1С:Шина</value>
+  </synonym>
+  <externalIntegrationServiceAddress>http://192.168.1.46:9090/applications/ERP-Retail-dev</externalIntegrationServiceAddress>
+  <integrationServiceChannels uuid="b457f884-1fa6-4031-a8d5-255e4c90de50">
+    <producedTypes>
+      <managerType typeId="8ab95a15-fa4d-4c44-96e0-bc737d236e1e" valueTypeId="38b6af91-5e74-45e3-81b4-d85813a20794"/>
+    </producedTypes>
+    <name>Основной_ЗУПДО_В_ДО_из_ЗУП</name>
+    <externalIntegrationServiceChannelName>Основной::ЗУПДО.В_ДО_из_ЗУП</externalIntegrationServiceChannelName>
+    <messageDirection>Receive</messageDirection>
+    <receiveMessageProcessing>Основной_ЗУПДО_В_ДО_из_ЗУПОбработкаПолученияСообщения</receiveMessageProcessing>
+    <transactioned>true</transactioned>
+  </integrationServiceChannels>
+  <integrationServiceChannels uuid="a0bc45a0-3a44-48b3-ba0c-3b209dd86a5d">
+    <producedTypes>
+      <managerType typeId="6334963c-c2f3-487b-a43f-75330f4159dd" valueTypeId="b7414398-b576-48f3-af1f-71606f56975c"/>
+    </producedTypes>
+    <name>Основной_ЗУПДО_В_ЗУП_из_ДО</name>
+    <externalIntegrationServiceChannelName>Основной::ЗУПДО.В_ЗУП_из_ДО</externalIntegrationServiceChannelName>
+    <messageDirection>Receive</messageDirection>
+    <receiveMessageProcessing>Основной_ЗУПДО_В_ЗУП_из_ДООбработкаПолученияСообщения</receiveMessageProcessing>
+    <transactioned>true</transactioned>
+  </integrationServiceChannels>
+  <integrationServiceChannels uuid="9e95a161-9e53-4ac7-88cd-45c469387a5c">
+    <producedTypes>
+      <managerType typeId="d0324354-28d4-4899-888c-0b707cb07fb4" valueTypeId="b6a21c13-38f4-4ce5-b92d-743b5de99b7e"/>
+    </producedTypes>
+    <name>Основной_ЗУПДО_Из_ДО_в_ЗУП</name>
+    <externalIntegrationServiceChannelName>Основной::ЗУПДО.Из_ДО_в_ЗУП</externalIntegrationServiceChannelName>
+    <transactioned>true</transactioned>
+  </integrationServiceChannels>
+  <integrationServiceChannels uuid="643a0bfd-3bda-4f24-88a7-5a74b54b504e">
+    <producedTypes>
+      <managerType typeId="152ac011-b4e4-45b1-85d6-515fcc868b2c" valueTypeId="1a0785b3-4da5-48c6-a5b8-c6a7cd774577"/>
+    </producedTypes>
+    <name>Основной_ЗУПДО_Из_ЗУП_в_ДО</name>
+    <externalIntegrationServiceChannelName>Основной::ЗУПДО.Из_ЗУП_в_ДО</externalIntegrationServiceChannelName>
+    <transactioned>true</transactioned>
+  </integrationServiceChannels>
+</mdclass:IntegrationService>

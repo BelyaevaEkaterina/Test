@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="84023217-fc1c-402d-bb50-64df0f78e0e8">
+  <name>Коннектор_БиблиотекаФункцийПовтИсп</name>
+  <synonym>
+    <key>ru</key>
+    <value>Коннектор библиотека функций повт исп</value>
+  </synonym>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+  <returnValuesReuse>DuringRequest</returnValuesReuse>
+</mdclass:CommonModule>

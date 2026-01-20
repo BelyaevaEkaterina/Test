@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="66ddc8f5-385a-46f9-8448-9f8b537e2bb8">
+  <name>Логирование</name>
+  <synonym>
+    <key></key>
+    <value>Логирование</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>InformationRegister.Коннектор_РегистрацияЗапросов</content>
+  <content>InformationRegister.Коннектор_ОчередьНаОтправку</content>
+  <parentSubsystem>Subsystem.Коннектор_Коннектор1СШина</parentSubsystem>
+</mdclass:Subsystem>

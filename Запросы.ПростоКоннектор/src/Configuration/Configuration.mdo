@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="2d5a74f6-f0ae-45e8-886f-360e0cbd1021">
+  <name>ПростоКоннектор</name>
+  <synonym>
+    <key>ru</key>
+    <value>Просто коннектор</value>
+  </synonym>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:ConfigurationExtension">
+    <defaultRunMode>Checked</defaultRunMode>
+    <usePurposes>Checked</usePurposes>
+    <defaultLanguage>Checked</defaultLanguage>
+    <defaultRoles>Extended</defaultRoles>
+  </extension>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="89acfea5-36b3-4d53-84f5-32a2dca7946d"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="61623732-71aa-4c32-8c4e-ec697c797a1f"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="aaadd729-61c8-4b9e-b26c-4b0ae8df877b"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="6eb734cb-f6f8-40e3-adfb-32283da76e49"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="c94c5e76-977b-419e-ae3f-403082ed8743"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="6b69a534-2d38-4873-bfd6-15a49ffc55c7"/>
+  <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="0493369a-32bc-4886-9a8c-889ceb5bdc1e"/>
+  <keepMappingToExtendedConfigurationObjectsByIDs>true</keepMappingToExtendedConfigurationObjectsByIDs>
+  <namePrefix>Коннектор_</namePrefix>
+  <configurationExtensionCompatibilityMode>8.3.17</configurationExtensionCompatibilityMode>
+  <configurationExtensionPurpose>Customization</configurationExtensionPurpose>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>PersonalComputer</usePurposes>
+  <scriptVariant>Russian</scriptVariant>
+  <defaultRoles>Role.Коннектор_ОсновнаяРоль</defaultRoles>
+  <vendor>ООО &quot;ПРОСТО&quot;</vendor>
+  <version>2.0.1.6</version>
+  <defaultLanguage>Language.Русский</defaultLanguage>
+  <languages uuid="f2e64777-f8e2-459d-9339-eb624c1add99" extendedConfigurationObject="4b8f0af2-b0cb-4e19-923f-1d1edf376d2e">
+    <name>Русский</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:LanguageExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <languageCode>Checked</languageCode>
+    </extension>
+    <languageCode>ru</languageCode>
+  </languages>
+  <subsystems>Subsystem.Коннектор_Коннектор1СШина</subsystems>
+  <commonPictures>CommonPicture.Коннектор_МетаданныеДокументы</commonPictures>
+  <commonPictures>CommonPicture.Коннектор_МетаданныеСправочники</commonPictures>
+  <commonPictures>CommonPicture.Коннектор_Логотип</commonPictures>
+  <roles>Role.Коннектор_ОсновнаяРоль</roles>
+  <commonModules>CommonModule.Коннектор_БиблиотекаФункций</commonModules>
+  <commonModules>CommonModule.Коннектор_БиблиотекаФункцийПовтИсп</commonModules>
+  <eventSubscriptions>EventSubscription.Коннектор_ПриЗаписиДокументовИСправочниковВыгрузкаВШину</eventSubscriptions>
+  <scheduledJobs>ScheduledJob.Коннектор_ЗаданиеПоОбменуСШиной</scheduledJobs>
+  <scheduledJobs>ScheduledJob.Коннектор_АсинхроннаяОтправка</scheduledJobs>
+  <commonCommands>CommonCommand.Коннектор_ЖурналРегистрации</commonCommands>
+  <commonCommands>CommonCommand.Коннектор_ОтчетОценкаПроизводительности</commonCommands>
+  <constants>Constant.Коннектор_АсинхронныйОбмен</constants>
+  <constants>Constant.Коннектор_КаналОтправка</constants>
+  <constants>Constant.Коннектор_ЧислоПотоков</constants>
+  <catalogs>Catalog.ПодключаемыеБазы</catalogs>
+  <catalogs>Catalog.ПравилаВыгрузкиДаннах</catalogs>
+  <catalogs>Catalog.ПравилаЗагрузкиДанных</catalogs>
+  <catalogs>Catalog.ПравилаКонвертации</catalogs>
+  <catalogs>Catalog.Коннектор_СвойстваКонструктора</catalogs>
+  <enums>Enum.Форматы</enums>
+  <enums>Enum.Направление</enums>
+  <enums>Enum.ВариантыПроверкиУсловийВыгрузки</enums>
+  <enums>Enum.ВариантыВыгрузки</enums>
+  <enums>Enum.Коннектор_ВариантыПравилЗаполненияСвойствКонструктора</enums>
+  <dataProcessors>DataProcessor.Коннектор_НастройкаСервисовИнтеграции</dataProcessors>
+  <dataProcessors>DataProcessor.Коннектор_УниверсальныйОбмен</dataProcessors>
+  <dataProcessors>DataProcessor.Коннектор_ВыборИсточника</dataProcessors>
+  <informationRegisters>InformationRegister.Коннектор_РегистрацияЗапросов</informationRegisters>
+  <informationRegisters>InformationRegister.Коннектор_ОчередьНаОтправку</informationRegisters>
+  <integrationServices>IntegrationService.Коннектор_1СШина</integrationServices>
+</mdclass:Configuration>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ScheduledJob xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="07e57429-aefb-47f4-94e6-21e423c73028">
+  <name>Коннектор_ЗаданиеПоОбменуСШиной</name>
+  <synonym>
+    <key>ru</key>
+    <value>Коннектор - задание по обмену с шиной</value>
+  </synonym>
+  <methodName>CommonModule.Коннектор_БиблиотекаФункций.Коннектор_ЗаданиеПоОбменуСШиной</methodName>
+  <description>Коннектор_ЗаданиеПоОбменуСШиной</description>
+  <key>Коннектор_ЗаданиеПоОбменуСШиной</key>
+  <use>true</use>
+  <predefined>true</predefined>
+  <restartCountOnFailure>3</restartCountOnFailure>
+  <restartIntervalOnFailure>10</restartIntervalOnFailure>
+</mdclass:ScheduledJob>

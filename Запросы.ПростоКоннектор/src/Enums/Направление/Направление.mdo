@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="be7923cf-fe56-4e32-92a5-3d4e3d1521e8">
+  <producedTypes>
+    <refType typeId="6c2949a1-6b23-4451-8fcf-b6502337987a" valueTypeId="acc43178-6f5f-495e-8196-ac57c344c215"/>
+    <listType typeId="ab479d41-1dae-498f-9406-092565f003f3" valueTypeId="f0736894-84b0-4a3c-be2f-01398dba5443"/>
+    <managerType typeId="235763bc-b521-4ba0-bae5-70e4df939503" valueTypeId="346da153-1923-49e5-b65f-261fd41a5ae7"/>
+  </producedTypes>
+  <name>Направление</name>
+  <synonym>
+    <key>ru</key>
+    <value>Направление</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="5e4ee545-7faf-4018-aab0-635c8f0a1921">
+    <name>Выгрузка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выгрузка</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="7fc10763-243b-490f-a1ce-f06b9733d7eb">
+    <name>Загрузка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Загрузка</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

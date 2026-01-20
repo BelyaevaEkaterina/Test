@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="759c8e1b-eed1-423e-b1c5-e10c0b340b22">
+  <producedTypes>
+    <managerType typeId="3a4e6e3c-6f0c-4b35-aa54-429ac61e4a74" valueTypeId="ec938518-579c-4281-b356-778072d8340b"/>
+    <valueManagerType typeId="8b9d5619-8cf3-4d2e-a5eb-3ec8ba1b45ea" valueTypeId="5d1ee026-064a-431e-988a-1d4f6e1a16b5"/>
+    <valueKeyType typeId="1bb1651c-ed76-48ce-a6d0-ccbf1d51298f" valueTypeId="ab9009ab-822c-436a-951a-d8e3bda1922b"/>
+  </producedTypes>
+  <name>Коннектор_ЧислоПотоков</name>
+  <synonym>
+    <key></key>
+    <value>Коннектор число потоков</value>
+  </synonym>
+  <type>
+    <types>Number</types>
+    <numberQualifiers>
+      <precision>2</precision>
+      <nonNegative>true</nonNegative>
+    </numberQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

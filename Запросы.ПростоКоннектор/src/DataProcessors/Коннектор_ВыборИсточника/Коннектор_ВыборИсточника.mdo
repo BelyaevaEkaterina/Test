@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="18b5e8aa-33c8-4b32-8839-414ee9b1dc85">
+  <producedTypes>
+    <objectType typeId="35b8b9a8-1265-4995-ae84-18285b710c38" valueTypeId="c8963194-5c21-450b-b380-a6ece47f0987"/>
+    <managerType typeId="e886edb5-0fa0-482d-abeb-fcd60835b706" valueTypeId="79e36719-8669-4ea7-8acd-f9f4f30c2978"/>
+  </producedTypes>
+  <name>Коннектор_ВыборИсточника</name>
+  <synonym>
+    <key>ru</key>
+    <value>Выбор источника</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <attributes uuid="b8d2eb0f-03f9-4316-a66f-a884800edf03">
+    <name>ТаблицаПравилВыгрузки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Таблица правил выгрузки</value>
+    </synonym>
+    <type>
+      <types>ValueTree</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Перечень доступных для выгрузки объектов метаданных</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="3c688fa7-914c-4ce1-854c-89f109595211">
+    <name>ДополнительнаяРегистрация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дополнительная регистрация</value>
+    </synonym>
+    <comment>Таблица дополнительной регистрации</comment>
+    <type>
+      <types>ValueTable</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Таблица объектов подлежащих дополнительной регистрации</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="9fe968de-071f-4e1f-a952-0e2c4700ed09">
+    <name>ВерсияФормата</name>
+    <synonym>
+      <key>ru</key>
+      <value>Версия формата</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Версия формата для выгрузки</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="c5a00500-ea5e-4b06-85fc-95a0e7de19d7">
+    <name>РасширениеФормата</name>
+    <synonym>
+      <key>ru</key>
+      <value>Расширение формата</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="9ce29cbc-b4d2-434f-8268-cadb63f69e95">
+    <name>ВариантВыгрузки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вариант выгрузки</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ВариантыВыгрузки</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="887f0e2e-7567-4cb1-bcee-32c016da1fab">
+    <name>ФормаПодбораИсточника</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма подбора источника</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

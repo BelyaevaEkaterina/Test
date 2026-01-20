@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonCommand xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b89f63a0-ee3e-4b69-90a3-95acb9d02e32">
+  <name>Коннектор_ОтчетОценкаПроизводительности</name>
+  <synonym>
+    <key>ru</key>
+    <value>Оценка производительности (отчет)</value>
+  </synonym>
+  <group>ActionsPanelTools</group>
+  <commandParameterType/>
+  <representation>Auto</representation>
+</mdclass:CommonCommand>

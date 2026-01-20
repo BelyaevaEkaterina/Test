@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ed0a8fee-ffbf-43d5-8f0b-4cb99676d233">
+  <producedTypes>
+    <selectionType typeId="6f462197-f59e-4cee-a71c-8e424517271b" valueTypeId="106d4da3-8522-4c4c-8503-d3e59bcc4c06"/>
+    <listType typeId="39da65fd-f8f6-4229-87fd-9a0d40e057b4" valueTypeId="1413e076-d751-42e8-9d6d-a5fd3b9dcc7a"/>
+    <managerType typeId="bb0d0c3e-6964-4034-bb3f-e10023710c48" valueTypeId="d2530267-868b-442e-bd81-0e3b8eb0fd7b"/>
+    <recordSetType typeId="2fa29980-3e05-4870-941c-9b60de871d9f" valueTypeId="5bbf65d2-78f5-4eb8-8c77-e6d274556d8e"/>
+    <recordKeyType typeId="579b8fdb-b03f-45d5-aa4f-34535a968a78" valueTypeId="a50928c7-f4fc-46ba-937d-d45504677529"/>
+    <recordType typeId="2fc862e6-f26f-42f6-bd66-2369a6fddc95" valueTypeId="3d628957-291f-409d-bae6-d6b24ad05ccd"/>
+    <recordManagerType typeId="43ce4e27-c28f-4208-a3e4-89065c806218" valueTypeId="6959ddb2-2640-4d86-9ac6-6450e30ea038"/>
+  </producedTypes>
+  <name>Коннектор_ОчередьНаОтправку</name>
+  <synonym>
+    <key></key>
+    <value>Коннектор очередь на отправку</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Очередь на отправку</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <informationRegisterPeriodicity>Second</informationRegisterPeriodicity>
+  <mainFilterOnPeriod>true</mainFilterOnPeriod>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="c20f0bd6-92c4-4c49-b7e6-5ba8b7d9b762">
+    <name>ДатаОтправки</name>
+    <synonym>
+      <key></key>
+      <value>Дата отправки</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+  </resources>
+  <resources uuid="a6fe8c69-3534-4159-bab2-85d29c1e6ef1">
+    <name>НастройкаБазы</name>
+    <synonym>
+      <key></key>
+      <value>Настройка базы</value>
+    </synonym>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="12af3ee9-f121-46ce-8191-bd8c5f068f05">
+    <name>ТелоСообщения</name>
+    <synonym>
+      <key></key>
+      <value>Тело сообщения</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <multiLine>true</multiLine>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <dimensions uuid="2e5414eb-2b75-4b18-b0ed-d987fa9e2f36">
+    <name>Идентификатор</name>
+    <synonym>
+      <key></key>
+      <value>Идентификатор</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

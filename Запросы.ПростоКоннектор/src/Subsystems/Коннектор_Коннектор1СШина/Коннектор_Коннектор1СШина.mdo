@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="83302c86-c8db-4582-af88-5d3a35c251c3">
+  <name>Коннектор_Коннектор1СШина</name>
+  <synonym>
+    <key>ru</key>
+    <value>1С: Шина (Коннектор)</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.Коннектор_Логотип</picture>
+  </picture>
+  <content>Enum.Форматы</content>
+  <content>Enum.ВариантыПроверкиУсловийВыгрузки</content>
+  <content>Enum.Направление</content>
+  <content>Enum.ВариантыВыгрузки</content>
+  <content>Role.Коннектор_ОсновнаяРоль</content>
+  <content>EventSubscription.Коннектор_ПриЗаписиДокументовИСправочниковВыгрузкаВШину</content>
+  <content>ScheduledJob.Коннектор_ЗаданиеПоОбменуСШиной</content>
+  <content>CommonPicture.Коннектор_МетаданныеДокументы</content>
+  <content>CommonPicture.Коннектор_МетаданныеСправочники</content>
+  <content>IntegrationService.Коннектор_1СШина</content>
+  <content>DataProcessor.Коннектор_НастройкаСервисовИнтеграции</content>
+  <content>DataProcessor.Коннектор_УниверсальныйОбмен</content>
+  <content>DataProcessor.Коннектор_ВыборИсточника</content>
+  <content>Enum.Коннектор_ВариантыПравилЗаполненияСвойствКонструктора</content>
+  <content>Catalog.ПодключаемыеБазы</content>
+  <content>Catalog.ПравилаВыгрузкиДаннах</content>
+  <content>Catalog.ПравилаЗагрузкиДанных</content>
+  <content>Catalog.ПравилаКонвертации</content>
+  <content>Catalog.Коннектор_СвойстваКонструктора</content>
+  <content>Constant.Коннектор_АсинхронныйОбмен</content>
+  <content>CommonModule.Коннектор_БиблиотекаФункций</content>
+  <content>CommonModule.Коннектор_БиблиотекаФункцийПовтИсп</content>
+  <content>CommonCommand.Коннектор_ЖурналРегистрации</content>
+  <content>CommonCommand.Коннектор_ОтчетОценкаПроизводительности</content>
+  <subsystems>Логирование</subsystems>
+</mdclass:Subsystem>
